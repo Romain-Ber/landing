@@ -1,0 +1,29 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url("../../images/banner-image.jpg");
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+.banner-content {
+  margin: 0px auto;
+}
+.banner-content h1 {
+  color: rgba(57, 59, 57, 0.85);
+  text-shadow:
+    -1px -1px 0 rgba(255, 255, 255, 0.7),
+    1px -1px 0 rgba(255, 255, 255, 0.7),
+    -1px 1px 0 rgba(255, 255, 255, 0.7),
+    1px 1px 0 rgba(255, 255, 255, 0.7);
+}
+.banner-content p {
+  padding-bottom: 100px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow:
+    -1px -1px 0 rgba(57, 59, 57, 0.65),
+    1px -1px 0 rgba(57, 59, 57, 0.65),
+    -1px 1px 0 rgba(57, 59, 57, 0.65),
+    1px 1px 0 rgba(57, 59, 57, 0.65);
+}
